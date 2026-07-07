@@ -1,6 +1,40 @@
-streamlit>=1.36
-google-generativeai>=0.8.0
-chromadb>=0.5.5
-langchain-text-splitters>=0.0.1
-pypdf>=4.2.0
-python-dotenv>=1.0.1
+streamlit==1.46.0
+
+# AI Models
+google-generativeai==0.8.5
+
+# Vector Database
+chromadb==1.0.15
+
+# LangChain
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-text-splitters==0.3.8
+
+# PDF Processing
+pypdf==5.7.0
+
+# API
+fastapi==0.116.1
+uvicorn==0.35.0
+python-multipart==0.0.20
+
+# Environment
+python-dotenv==1.1.1
+
+# Logging
+loguru==0.7.3
+
+# Data
+pandas==2.3.0
+numpy==2.3.1
+
+# Embeddings
+sentence-transformers==5.0.0
+torch>=2.2.0
+
+# Utilities
+tqdm==4.67.1
+scikit-learn==1.7.0
+
+requests==2.32.4

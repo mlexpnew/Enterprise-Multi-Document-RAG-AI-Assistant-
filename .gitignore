@@ -1,16 +1,24 @@
 # Python
+.venv/
 __pycache__/
 *.pyc
 
-# Virtual env
-.venv/
+# Environment
+.env
 
-# Local vector DB
+# Vector Database
 chroma_db/
 
-# OS/editor
-.DS_Store
-.vscode/
+# Logs
+logs/
 
-# Secrets
-.env
+# Generated files
+data/*.pdf
+data/*.csv
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
